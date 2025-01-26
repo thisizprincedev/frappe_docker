@@ -2,7 +2,7 @@
 
 # Set variables that do not exist
 if [[ -z "$BACKEND" ]]; then
-  echo "BACKEND defaulting to 0.0.0.0:8000"
+  echo "BACKEND defaulting to 0.0.0.0:8080"
   export BACKEND=0.0.0.0:8000
 fi
 if [[ -z "$SOCKETIO" ]]; then
